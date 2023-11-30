@@ -23,7 +23,7 @@
     "build:declaration": "tsc --emitDeclarationOnly",
     "build": "rm -rf dist & bun run build:lib & bun run build:declaration"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "typescript": "^5.3.2"
   }
 }
