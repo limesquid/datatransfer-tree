@@ -27,3 +27,9 @@ element.addEventListener('drop', (event) => {
   console.log(await getEntriesTree(entries));
 });
 ```
+
+### Demo
+
+[CodeSandbox](https://codesandbox.io/p/sandbox/adoring-marco-5ln796)
+
+[Live demo](https://5ln796.csb.app)
