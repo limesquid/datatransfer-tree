@@ -1,0 +1,29 @@
+{
+  "name": "datatransfer-tree",
+  "version": "1.0.0-alpha-1",
+  "description": "Library for parsing DataTransfer entries into a structured directory tree objects",
+  "author": "Yuriy Yakym",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "files",
+    "datatransfer",
+    "traversing",
+    "directories",
+    "event"
+  ],
+  "scripts": {
+    "build:lib": "bun build src/index.ts --minify --outdir dist",
+    "build:declaration": "tsc --emitDeclarationOnly",
+    "build": "rm -rf dist & bun run build:lib & bun run build:declaration"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
