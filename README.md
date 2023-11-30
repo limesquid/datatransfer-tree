@@ -30,6 +30,6 @@ element.addEventListener('drop', (event) => {
 
 ### Demo
 
-[CodeSandbox](https://codesandbox.io/p/sandbox/adoring-marco-5ln796)
+[CodeSandbox](https://codesandbox.io/p/sandbox/adoring-marco-5ln796?file=%2Fsrc%2Findex.ts%3A9%2C2)
 
 [Live demo](https://5ln796.csb.app)
