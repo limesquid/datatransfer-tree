@@ -1,2 +1,2 @@
 export type * from './types';
-export { default } from './getEntriesTree';
+export { default, default as getEntriesTree } from './getEntriesTree';
