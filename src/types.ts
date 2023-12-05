@@ -1,12 +1,12 @@
-export type TreeFileEntry = Pick<FileSystemEntry, 'filesystem' | 'fullPath' | 'name'> & {
+export type FileNode = Pick<FileSystemEntry, 'filesystem' | 'fullPath' | 'name'> & {
   type: 'file';
   file: File;
 };
 
-export type TreeDirectoryEntry = {
+export type DirectoryNode = {
   type: 'directory';
   name: string;
-  entries: TreeEntry[];
+  entries: Node[];
 };
 
-export type TreeEntry = TreeDirectoryEntry | TreeFileEntry;
+export type Node = DirectoryNode | FileNode;
