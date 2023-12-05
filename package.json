@@ -1,6 +1,6 @@
 {
   "name": "datatransfer-tree",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Library for parsing DataTransfer entries into a structured directory tree objects",
   "author": "Yuriy Yakym",
   "license": "MIT",
